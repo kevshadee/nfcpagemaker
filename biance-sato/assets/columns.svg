@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 960" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="stone"><stop stop-color="#899778" stop-opacity=".22"/><stop offset=".35" stop-color="#a8b093" stop-opacity=".38"/><stop offset=".55" stop-color="#244c3b" stop-opacity=".2"/><stop offset="1" stop-color="#a8b093" stop-opacity=".3"/></linearGradient>
+    <g id="column" fill="url(#stone)" stroke="#d5cc9b" stroke-opacity=".22" stroke-width="1">
+      <path d="M18 238h56l-5 11H23Z"/><path d="M23 249h46v12H23Z"/>
+      <path d="M27 265h38l5 610H22Z"/><path d="M32 271v596m9-596v596m10-596v596m9-596v596" fill="none"/>
+      <path d="M18 875h56v12H18ZM12 887h68v13H12ZM6 900h80v15H6Z"/>
+      <path d="M27 262c-18 1-22-25-10-29 9-3 17 7 9 12-6 3-10-3-6-6m45 23c18 1 22-25 10-29-9-3-17 7-9 12 6 3 10-3 6-6" fill="none"/>
+    </g>
+  </defs>
+  <path d="M43 231V207a197 197 0 0 1 394 0v24" fill="none" stroke="#bdc19a" stroke-opacity=".23" stroke-width="10"/>
+  <path d="M55 232v-25a185 185 0 0 1 370 0v25" fill="none" stroke="#c7bf8c" stroke-opacity=".26"/>
+  <use href="#column" x="-17"/><use href="#column" x="405"/>
+  <path d="M0 922h480M0 935h480M0 952h480" fill="none" stroke="#c7bf8c" stroke-opacity=".2"/>
+</svg>
