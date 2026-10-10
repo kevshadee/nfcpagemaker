@@ -75,3 +75,11 @@ h1{font-size:34px;letter-spacing:-.5px}h1 span{font-size:43px;font-style:normal;
 .save-contact{margin-top:16px;background:#c5b28b;color:#202522;border-color:#ddcca8}
 footer p{letter-spacing:1.6px}.footer-monogram{letter-spacing:2px;font-size:12px}
 @media(max-width:520px){body{background:#202522}.card{border-radius:0}.card:before{border-radius:3px}.card-content{padding-top:34px}h1{font-size:32px}h1 span{font-size:42px}}
+
+/* Portrait and palette inspired by Joe's supplied photograph. */
+:root{--green:#242625;--gold:#c5a576;--muted:#bebbb3}
+.card{background:linear-gradient(145deg,#363936,#252726 50%,#191b1a)}
+.portrait-frame{width:148px;height:174px;border-radius:7px;padding:5px;background:#383a36;border-color:#c5a576;box-shadow:0 0 0 7px #c5a57608,0 12px 28px #00000030}
+.portrait{border-radius:3px;object-position:center 30%}
+.icon-tile{color:#d0b185}.save-contact{background:#c5a576;border-color:#d9bb8d}.save-contact:hover{background:#d8b98b}
+@media(max-width:520px){body{background:#242625}}
