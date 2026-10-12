@@ -1,0 +1,61 @@
+:root{color-scheme:dark;--green:#123f34;--gold:#c8b67e;--cream:#f3efe3;--muted:#b8c4b7}
+*{box-sizing:border-box}
+body{margin:0;min-height:100svh;background:#eae6dc;color:var(--cream);font-family:Arial,Helvetica,sans-serif;display:grid;place-items:center;padding:36px 20px;background-image:radial-gradient(ellipse at 50% 40%,#f8f5ed 0%,#eae6dc 65%,#d7d4ca 100%)}
+.icon-library{position:absolute;width:0;height:0;overflow:hidden}
+svg{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:1.45;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}
+a{color:inherit;text-decoration:none;-webkit-tap-highlight-color:transparent}
+button{font:inherit}
+.card{width:100%;max-width:480px;position:relative;isolation:isolate;overflow:hidden;background:linear-gradient(160deg,#184c3c 0%,#123f34 42%,#082a23 100%);box-shadow:0 24px 80px #082c2330,0 3px 12px #082c2320;border-radius:240px 240px 8px 8px;border:1px solid #b8a96e65}
+.card:before{content:"";position:absolute;inset:12px;z-index:-1;border:1px solid #c8b67e38;border-radius:230px 230px 3px 3px;pointer-events:none}
+.architecture{position:absolute;inset:0;z-index:-2;background-image:url('assets/columns.svg');background-repeat:no-repeat;background-position:50% 0;background-size:100% 100%;opacity:.36;pointer-events:none}
+.card-content{padding:36px 42px 24px;background:radial-gradient(ellipse at 50% 36%,#103a3020 20%,#0a302480 80%)}
+.profile{text-align:center}
+.signature{height:29px;display:flex;align-items:center;justify-content:center;gap:13px;color:var(--gold);font-family:Georgia,'Times New Roman',serif;font-size:20px;letter-spacing:-2px;padding-right:2px}
+.signature>span:first-child,.signature>span:last-child{height:1px;width:26px;background:#c8b67e65}
+.eyebrow{font-size:9px;letter-spacing:3px;color:var(--gold);margin:16px 0 25px}
+.portrait-frame{width:132px;height:164px;margin:0 auto 24px;border-radius:80px 80px 8px 8px;padding:5px;border:1px solid var(--gold);box-shadow:0 0 0 5px #c8b67e0c,0 8px 24px #001f2160;background:#233f34}
+.portrait{display:block;width:100%;height:100%;object-fit:cover;object-position:center 42%;border-radius:75px 75px 4px 4px}
+h1{font-family:Georgia,'Times New Roman',serif;font-weight:400;font-size:34px;line-height:1.12;letter-spacing:-.7px;margin:0;color:#f8f2e2}
+h1 span{display:block;font-style:italic;font-size:47px;line-height:1.15;margin-top:2px}
+.intro{font-size:11px;font-weight:400;line-height:1.8;letter-spacing:.3px;color:var(--muted);margin:14px 0 0}
+.ornament{display:flex;align-items:center;justify-content:center;gap:13px;margin:23px 0 23px;color:var(--gold)}
+.ornament span{height:1px;width:45px;background:linear-gradient(90deg,transparent,#c8b67e70)}
+.ornament span:last-child{transform:rotate(180deg)}
+.ornament i{font-size:12px;font-style:normal}
+h2{font-size:9px;letter-spacing:2.6px;font-weight:400;color:var(--gold);margin:0 0 15px;text-align:center}
+.connections{display:grid;gap:10px}
+.connections h2{margin-bottom:3px}
+.social-link{display:flex;align-items:center;gap:15px;min-height:70px;padding:12px 17px 12px 13px;border:1px solid #b8bc9960;border-radius:4px;background:linear-gradient(110deg,#ffffff08,#ffffff03);transition:background .18s,border-color .18s,transform .18s}
+.social-link:hover{background:#d8c79b15;border-color:#c8b67ec0;transform:translateY(-2px)}
+.social-link:active{transform:translateY(0)}
+.icon-tile{display:grid;place-items:center;width:38px;height:38px;border:1px solid #c8b67e32;border-radius:50%;color:#d5c592;flex-shrink:0}
+.icon-tile svg{width:21px;height:21px}
+.link-text{display:grid;gap:5px;flex:1;min-width:0}
+.link-text strong{font-size:14px;font-weight:400;letter-spacing:.3px}
+.link-text>span{font-size:10px;color:#b8c4b7;letter-spacing:.15px;line-height:1.3}
+.link-arrow{width:15px;height:15px;color:var(--gold)}
+.contact{margin-top:20px;text-align:center}
+.phone-row{display:flex;align-items:center;justify-content:center;gap:8px}
+.phone-number{display:flex;align-items:center;justify-content:center;gap:9px;min-height:44px;font-size:12px;color:#d1d5c3;letter-spacing:.6px}
+.phone-number svg{width:15px;height:15px;color:var(--gold)}
+.copy-button{display:grid;place-items:center;width:44px;height:44px;border:0;border-radius:4px;color:#c8b67e;background:transparent;cursor:pointer}
+.copy-button[hidden]{display:none}
+.copy-button:hover{background:#c8b67e18}
+.copy-button svg{width:15px;height:15px}
+.copy-status{font-size:10px;color:var(--gold);margin:0;min-height:16px}
+.save-contact{display:flex;align-items:center;justify-content:center;gap:10px;min-height:49px;background:#d1c18e;color:#18382c;border:1px solid #e0d5b4;border-radius:3px;font-size:12px;font-weight:600;letter-spacing:.4px;transition:background .18s}
+.save-contact:hover{background:#e2d5ab}
+.save-contact svg{width:17px;height:17px;stroke-width:1.7}
+footer{text-align:center;margin-top:27px;color:#9cac98}
+.footer-line{display:block;width:22px;height:1px;background:#c8b67e66;margin:0 auto 13px}
+footer p{font-size:7px;line-height:1.8;letter-spacing:1.9px;margin:0}
+.footer-monogram{display:block;font-family:Georgia,'Times New Roman',serif;font-size:16px;letter-spacing:-1.5px;color:#c8b67e99;margin-top:13px}
+:focus-visible{outline:2px solid #f2d58e;outline-offset:5px}
+@media(max-width:520px){body{padding:0;background:var(--green)}.card{max-width:none;border-radius:0;border:0;min-height:100svh;box-shadow:none}.card:before{inset:12px;border-radius:230px 230px 3px 3px}.card-content{padding:30px 36px 25px}.architecture{background-size:100% 100%}.eyebrow{margin-top:12px}.portrait-frame{margin-bottom:21px}h1{font-size:32px}h1 span{font-size:45px}}
+@media(max-width:350px){.card-content{padding-inline:25px}h1{font-size:28px}.social-link{gap:11px;padding-right:12px}.intro{font-size:10px}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+
+/* Shared profile heading format: photo, single-line name, then bio. */
+.card-content{padding-top:32px}
+.portrait-frame{width:148px;height:174px;margin:0 auto 24px}
+.profile h1{display:block;font-size:clamp(24px,6.5vw,28px);font-style:normal;font-weight:400;line-height:1.2;letter-spacing:.6px;white-space:nowrap;margin:0;text-align:center}
